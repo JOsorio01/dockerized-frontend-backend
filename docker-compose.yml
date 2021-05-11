@@ -29,6 +29,3 @@ services:
       - PGDATA=/var/lib/postgresql/pgdata
     volumes:
       - db_data:/var/lib/postgresql/pgdata
-volumes:
-  db_data:
-    external: true
