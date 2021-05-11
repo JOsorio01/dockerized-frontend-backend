@@ -26,6 +26,3 @@ services:
       - POSTGRES_DB=app
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=secretPassword
-      - PGDATA=/var/lib/postgresql/pgdata
-    volumes:
-      - db_data:/var/lib/postgresql/pgdata
