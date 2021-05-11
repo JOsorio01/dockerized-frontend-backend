@@ -1,0 +1,4 @@
+Django==3.*
+djangorestframework==3.12.*
+psycopg2==2.8.*
+flake8==3.9.*
